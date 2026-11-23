@@ -1,0 +1,216 @@
+{
+  "contract_fingerprint": "b06781a26c4469e8f12830a04d455957bf620d42b9e1df155e93ee00f293d1c9",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "omniwrap/codejackrabbit@0.3.4",
+        "ecosystem": "Packagist",
+        "entry": "OmniWrap\\Client",
+        "import": "use OmniWrap\\Client;"
+      },
+      "operations": {
+        "analyzeContractDrift": {
+          "member": "analyzeContractDrift",
+          "method": "POST",
+          "path": "/v1/analysis/contract-drift",
+          "resource": "analysis",
+          "signature": "public function analyzeContractDrift(?array $body = null): array"
+        },
+        "analyzePerfFinOps": {
+          "member": "analyzePerfFinOps",
+          "method": "POST",
+          "path": "/v1/analysis/perf-finops",
+          "resource": "analysis",
+          "signature": "public function analyzePerfFinOps(?array $body = null): array"
+        },
+        "analyzeSupplyChain": {
+          "member": "analyzeSupplyChain",
+          "method": "POST",
+          "path": "/v1/supply-chain/analyze",
+          "resource": "supply_chain",
+          "signature": "public function analyzeSupplyChain(?array $body = null): array"
+        },
+        "buildAutofixBundle": {
+          "member": "buildAutofixBundle",
+          "method": "POST",
+          "path": "/v1/reviews/autofix",
+          "resource": "reviews",
+          "signature": "public function buildAutofixBundle(?array $body = null): array"
+        },
+        "collectDeveloperAudit": {
+          "member": "collectDeveloperAudit",
+          "method": "POST",
+          "path": "/cli/managed/developer-audit",
+          "resource": "developer_intelligence",
+          "signature": "public function collectDeveloperAudit(?array $body = null): array"
+        },
+        "computeRiskRadar": {
+          "member": "computeRiskRadar",
+          "method": "POST",
+          "path": "/v1/reviews/risk-radar",
+          "resource": "reviews",
+          "signature": "public function computeRiskRadar(?array $body = null): array"
+        },
+        "createCodingTask": {
+          "member": "createCodingTask",
+          "method": "POST",
+          "path": "/v1/tasks",
+          "resource": "tasks",
+          "signature": "public function createCodingTask(?array $body = null): array"
+        },
+        "createReview": {
+          "member": "createReview",
+          "method": "POST",
+          "path": "/v1/reviews",
+          "resource": "reviews",
+          "signature": "public function createReview(?array $body = null): array"
+        },
+        "currentDeveloperIdentity": {
+          "member": "currentDeveloperIdentity",
+          "method": "POST",
+          "path": "/cli/managed/developer-identity",
+          "resource": "developer_intelligence",
+          "signature": "public function currentDeveloperIdentity(?array $body = null): array"
+        },
+        "declareDeveloperProjectContext": {
+          "member": "declareDeveloperProjectContext",
+          "method": "POST",
+          "path": "/cli/managed/audit-context",
+          "resource": "developer_intelligence",
+          "signature": "public function declareDeveloperProjectContext(?array $body = null): array"
+        },
+        "evaluateComplianceGate": {
+          "member": "evaluateComplianceGate",
+          "method": "POST",
+          "path": "/v1/compliance/gate",
+          "resource": "compliance",
+          "signature": "public function evaluateComplianceGate(?array $body = null): array"
+        },
+        "exportSarif": {
+          "member": "exportSarif",
+          "method": "POST",
+          "path": "/v1/compliance/sarif",
+          "resource": "compliance",
+          "signature": "public function exportSarif(?array $body = null): array"
+        },
+        "finalizeMeteringQuota": {
+          "member": "finalizeMeteringQuota",
+          "method": "POST",
+          "path": "/v1/saas/metering/finalize",
+          "resource": "saas",
+          "signature": "public function finalizeMeteringQuota(?array $body = null): array"
+        },
+        "generateSbom": {
+          "member": "generateSbom",
+          "method": "POST",
+          "path": "/v1/sbom",
+          "resource": "sbom",
+          "signature": "public function generateSbom(?array $body = null): array"
+        },
+        "getAnalyticsRoi": {
+          "member": "getAnalyticsRoi",
+          "method": "GET",
+          "path": "/v1/analytics/roi",
+          "resource": "analytics",
+          "signature": "public function getAnalyticsRoi(): array"
+        },
+        "getCapabilities": {
+          "member": "getCapabilities",
+          "method": "GET",
+          "path": "/v1/capabilities",
+          "resource": "capabilities",
+          "signature": "public function getCapabilities(): array"
+        },
+        "getHealth": {
+          "member": "getHealth",
+          "method": "GET",
+          "path": "/health",
+          "resource": "health",
+          "signature": "public function getHealth(): array"
+        },
+        "getSaasBlueprint": {
+          "member": "getSaasBlueprint",
+          "method": "GET",
+          "path": "/v1/saas/blueprint",
+          "resource": "saas",
+          "signature": "public function getSaasBlueprint(): array"
+        },
+        "getTriageQueue": {
+          "member": "getTriageQueue",
+          "method": "GET",
+          "path": "/v1/triage",
+          "resource": "triage",
+          "signature": "public function getTriageQueue(): array"
+        },
+        "issueSurfaceLease": {
+          "member": "issueSurfaceLease",
+          "method": "POST",
+          "path": "/v1/saas/surface-lease/issue",
+          "resource": "saas",
+          "signature": "public function issueSurfaceLease(?array $body = null): array"
+        },
+        "listCodingTasks": {
+          "member": "listCodingTasks",
+          "method": "GET",
+          "path": "/v1/tasks",
+          "resource": "tasks",
+          "signature": "public function listCodingTasks(): array"
+        },
+        "listWaitlist": {
+          "member": "listWaitlist",
+          "method": "GET",
+          "path": "/v1/waitlist",
+          "resource": "waitlist",
+          "signature": "public function listWaitlist(): array"
+        },
+        "managedAuditSnapshots": {
+          "member": "managedAuditSnapshots",
+          "method": "POST",
+          "path": "/cli/managed/audit-snapshots",
+          "resource": "developer_intelligence",
+          "signature": "public function managedAuditSnapshots(?array $body = null): array"
+        },
+        "planStackedPrSplit": {
+          "member": "planStackedPrSplit",
+          "method": "POST",
+          "path": "/v1/analysis/split-pr",
+          "resource": "analysis",
+          "signature": "public function planStackedPrSplit(?array $body = null): array"
+        },
+        "providerCostEvidence": {
+          "member": "providerCostEvidence",
+          "method": "POST",
+          "path": "/cli/managed/finops",
+          "resource": "developer_intelligence",
+          "signature": "public function providerCostEvidence(?array $body = null): array"
+        },
+        "registerWaitlist": {
+          "member": "registerWaitlist",
+          "method": "POST",
+          "path": "/v1/waitlist",
+          "resource": "waitlist",
+          "signature": "public function registerWaitlist(?array $body = null): array"
+        },
+        "reserveMeteringQuota": {
+          "member": "reserveMeteringQuota",
+          "method": "POST",
+          "path": "/v1/saas/metering/reserve",
+          "resource": "saas",
+          "signature": "public function reserveMeteringQuota(?array $body = null): array"
+        },
+        "submitDeveloperEvidence": {
+          "member": "submitDeveloperEvidence",
+          "method": "POST",
+          "path": "/cli/managed/developer-evidence",
+          "resource": "developer_intelligence",
+          "signature": "public function submitDeveloperEvidence(?array $body = null): array"
+        }
+      },
+      "package_directory": "../omniwrap-codejackrabbit-php-sdk",
+      "package_manifest": "composer.json",
+      "reference": "api.md",
+      "renderer": "php"
+    }
+  ]
+}

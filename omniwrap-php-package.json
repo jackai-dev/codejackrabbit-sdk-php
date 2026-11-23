@@ -1,0 +1,61 @@
+{
+  "artifact_type": "php-sdk",
+  "package_manifest": "composer.json",
+  "package_name": "omniwrap/codejackrabbit",
+  "package_version": "0.3.4",
+  "runtime_floor": "^8.1",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "eb086b0c2bf41b1d750f37019b6a70e77f85b3a20ac51bee4ca038f880236d0e",
+      "size_bytes": 369
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "a2d86f14848a38a6199723457a30eaad9dd03ca49d7a2f3f0ac81d3372a69b9a",
+      "size_bytes": 107008
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "4f166b6298e098266a7827053cce444079f43877f3929417a225310d63a86b0b",
+      "size_bytes": 700
+    },
+    {
+      "path": "api.md",
+      "sha256": "e884f4fb98011023305f3869263e1362561671536a7dc457dfa5a22a6b0381aa",
+      "size_bytes": 40284
+    },
+    {
+      "path": "composer.json",
+      "sha256": "e0db3dd60aba2723a910e16ef66a48df727ba8a1268528d68440ec3b09ece40b",
+      "size_bytes": 428
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a777913ffc0497b07496507c08d33e9f322714cb9e503583bc09f5d9daec6ee1",
+      "size_bytes": 10261
+    },
+    {
+      "path": "README.md",
+      "sha256": "e116ae1c29d0c3a09680ad4b3314304c35520b48c86c6d4dfb53a44e8d86d0ab",
+      "size_bytes": 795
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "bac77ac1a8bcfc152d5addd7c8d3ea8d46338271f8d18ae69e6a9a7d11ea7d10",
+      "size_bytes": 13804
+    },
+    {
+      "path": "src/AgentSession.php",
+      "sha256": "da752e9f2114a569a5272c69379c7c3eac789579c8afefa6beebe715ae7e5b24",
+      "size_bytes": 1502
+    },
+    {
+      "path": "src/Client.php",
+      "sha256": "02b55aa176eff79410f58302c0ce7ce4e713688368ce73552a2bab87f3c9f66e",
+      "size_bytes": 18764
+    }
+  ],
+  "source_version": "0.3.4",
+  "target": "php"
+}

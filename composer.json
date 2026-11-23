@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "psr-4": {
+      "OmniWrap\\\\": "src/"
+    }
+  },
+  "description": "OmniWrap generated PHP SDK for CodeJackRabbit",
+  "extra": {
+    "omniwrap": {
+      "contract_sha256": "b06781a26c4469e8f12830a04d455957bf620d42b9e1df155e93ee00f293d1c9",
+      "generator_version": "2.0.0"
+    }
+  },
+  "name": "omniwrap/codejackrabbit",
+  "require": {
+    "php": "^8.1"
+  },
+  "type": "library",
+  "version": "0.3.4"
+}
